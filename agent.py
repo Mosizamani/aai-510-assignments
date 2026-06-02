@@ -24,7 +24,7 @@ from unitycatalog.ai.core.base import get_uc_function_client
 ############################################
 # Define your LLM endpoint and system prompt (placeholder replaced by next cell)
 ############################################
-LLM_ENDPOINT_NAME = "databricks-gpt-oss-120b"
+LLM_ENDPOINT_NAME = "databricks-llama-4-maverick"
 
 SYSTEM_PROMPT = """You are the UltraFeedback Expert, an AI assistant that helps users explore and understand the UltraFeedback LLM preference dataset.
 

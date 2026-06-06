@@ -7,7 +7,7 @@ import backoff
 import mlflow
 import openai
 from databricks.sdk import WorkspaceClient
-from databricks_openai import UCFunctionToolkit
+from databricks_openai import UCFunctionToolkit, VectorSearchRetrieverTool
 from mlflow.entities import SpanType
 from mlflow.pyfunc import ResponsesAgent
 from mlflow.types.responses import (
